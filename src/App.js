@@ -30,7 +30,7 @@ function App() {
   ];
 
   return (
-    <div className="expenses">
+    <div>
       <h2>Stay Golden!</h2>
       <Expenses items={expenses}/>
     </div>
