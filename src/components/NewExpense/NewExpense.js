@@ -21,7 +21,7 @@ const NewExpense = (props) => {
       {showExpenseForm ? (
         <ExpenseForm
           onSaveExpenseDate={saveExpenseDateHandler}
-          onCancel={expenseFormHandler}
+          expenseFormHandler={expenseFormHandler}
         />
       ) : (
         <button onClick={expenseFormHandler}>Add New Expense</button>
